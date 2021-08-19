@@ -4,6 +4,8 @@
   "description": "URL shortener API built using the Express framework for NodeJs",
   "main": "index.js",
   "scripts": {
+    "build:watch" : "tsc -w",
+    "dev" : "nodemon ./dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/alexander-oliveira/shortener-api-express#readme",
   "dependencies": {
+    "@types/express": "^4.17.13",
     "@typescript-eslint/eslint-plugin": "^4.29.2",
     "@typescript-eslint/parser": "^4.29.2",
     "cors": "^2.8.5",
