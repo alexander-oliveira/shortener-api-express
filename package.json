@@ -1,0 +1,19 @@
+{
+  "name": "url-shortener-api",
+  "version": "1.0.0",
+  "description": "URL shortener API built using the Express framework for NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexander-oliveira/shortener-api-express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexander-oliveira/shortener-api-express/issues"
+  },
+  "homepage": "https://github.com/alexander-oliveira/shortener-api-express#readme"
+}
